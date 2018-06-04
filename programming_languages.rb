@@ -22,6 +22,6 @@ i = 0
     i += 1
   end
 
-puts newHash
+return newHash
 end
 
