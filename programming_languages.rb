@@ -12,10 +12,10 @@ newHash = {}
 
 #i = 0
 #
-  newHash.each do |lang, infoz|
-    infoz[:style] = []
+#  newHash.each do |lang, infoz|
+#    infoz[:style] = []
 #    i += 1
-  end
+#  end
 
 puts newHash
 end
