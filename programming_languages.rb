@@ -17,5 +17,5 @@ styleArray = []
 
 
 
-puts newHash
+#puts newHash
 
