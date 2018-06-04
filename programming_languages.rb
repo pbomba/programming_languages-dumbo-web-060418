@@ -6,6 +6,7 @@ newHash = {}
   languages.each do |family, language|
     language.each do |lang, type|
       newHash[lang] = type
+      puts language
       language[:style] = []
     end
   end
