@@ -19,7 +19,7 @@ i = 0
 
   newHash.each do |lang, infoz|
     infoz[:style] = styleArray[i]
-   # i += 1
+    i += 1
   end
 
 puts newHash
