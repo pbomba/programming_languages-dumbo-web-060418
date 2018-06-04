@@ -15,6 +15,12 @@ styleArray = []
     end
   end
 
+i = 0
+
+  newHash.each do |lang, infoz|
+    lang[:style] = styleArray[i]
+    i += 1
+  end
 
 puts newHash
 end
