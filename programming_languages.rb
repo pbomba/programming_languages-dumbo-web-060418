@@ -8,6 +8,7 @@ newHash = {}
       newHash[lang] = type
     end
   end
+
 #styleArray = []
 #  languages.each do |family, language|
 #    language.each do |lang, type|
@@ -17,10 +18,10 @@ newHash = {}
 #
 #i = 0
 #
-#  newHash.each do |lang, infoz|
-#    infoz[:style] = [styleArray[i]]
+  newHash.each do |lang, infoz|
+    infoz[:style] = []
 #    i += 1
-#  end
+  end
 
 puts newHash
 end
