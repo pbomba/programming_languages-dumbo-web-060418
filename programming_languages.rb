@@ -9,13 +9,7 @@ newHash = {}
     end
   end
 
-#styleArray = []
-#  languages.each do |family, language|
-#    language.each do |lang, type|
-#      styleArray << family
-#    end
-#  end
-#
+
 #i = 0
 #
   newHash.each do |lang, infoz|
